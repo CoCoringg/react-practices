@@ -1,0 +1,22 @@
+{
+  "name": "ex01",
+  "version": "1.0.0",
+  "description": "ex01: JS Module만 번들링하기",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dev-server",
+    "build": "npx webpack ./src/index.js -o ./public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "webpack": "^5.73.0"
+  }
+}
