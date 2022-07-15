@@ -4,7 +4,7 @@
   "description": "ex07: ex00.cra Reconfiguration(내가 직접 설정)",
   "main": "index.js",
   "scripts": {
-    "debug":"npx webpack serve --progress --env",
+    "debug": "npx webpack serve --progress --env",
     "build": "npx webpack"
   },
   "keywords": [],
@@ -25,6 +25,7 @@
     "webpack-dev-server": "^4.9.3"
   },
   "dependencies": {
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
