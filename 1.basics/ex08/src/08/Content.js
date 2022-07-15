@@ -4,7 +4,7 @@ import Clock from './Clock';
 function Content() {
     return (
         <Fragment>
-            <p>Comment</p>
+            <p>{'JSX Tutorial - Dynamic HTML Rendering'}</p>
             <Clock />
         </Fragment>
     );
