@@ -29,5 +29,5 @@ webpack.config.js
   }
 
 4. 실행
-[ex01]$ npm run debug src=(01|02|03|04|05|06|07|08)
+[ex01]$ npm run debug src=(01|02|03|04)
 
