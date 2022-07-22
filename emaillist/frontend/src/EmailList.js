@@ -1,16 +1,17 @@
 import React from 'react';
-import styles from './assets/css/styles.css';
+import styles from './assets/scss/Emaillist.scss';
+import Email from './Email';
 
 function EmailList({emailList}) {
     return (
         <ul className={styles.Emaillist}>
             {
                 emailList.map((e) => (
-                    <li key={e.no}>
-                        {e.firstName+e.lastName}
-                        <br/>
-                        {e.email}
-                    </li>
+                    <Email
+                        key={e.no}
+                        firstName={e.firstName}
+                        lastName={e.lastName}
+                        email={e.email} />
                 ))
             }
         </ul>
