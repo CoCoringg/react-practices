@@ -16,6 +16,7 @@ function CardList({title, cards}) {
                             key={card.no}
                             title={card.title}
                             description={card.description}
+                            status = {card.status}
                             tasklist={card.tasks} />
                     ))
                 }
